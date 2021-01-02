@@ -81,3 +81,8 @@ select {
 
 /**** / RESET CSS ****/
 
+/**** GENERAL VARIABLES ****/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
