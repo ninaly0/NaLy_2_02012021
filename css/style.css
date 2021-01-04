@@ -83,6 +83,52 @@ select {
 
 /**** GENERAL VARIABLES ****/
 
+:root {
+    --color-blue:#0065FC;
+    --color-lightblue:#DEEBFF;
+    --color-grey:#F2F2F2;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  padding:20px 40px 20px 40px;
+}
+
+button, a {
+  cursor:pointer;
+}
+
+/**** HEADER ****/
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    /* padding:20px; */
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.logo {
+    width:100px;
+    height:50px;
+}
+
+nav a{
+    margin-left:40px;
+    color:var(--color-blue);
+    font-weight:500;
+}
+
+nav a:nth-child(2){
+    color:black;
+}
+nav a:last-child {
+    font-weight:bold;
 }
