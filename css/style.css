@@ -420,3 +420,21 @@ footer {
 .footer-container ul li a {
   font-size:14px;
 }
+
+
+/**** MEDIA QUERIES ****/
+
+/* Small desktop */
+@media only screen and (max-width: 1245px) {
+    
+}
+
+/* Tablette */
+@media only screen and (max-width: 1024px) {
+    
+}
+
+/* smartphone */
+@media only screen and (max-width: 767px) {
+
+}
