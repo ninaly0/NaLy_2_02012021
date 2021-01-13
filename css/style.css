@@ -204,7 +204,7 @@ aside.accomodations-popular-cards {
 }
 
 .accomodations-main-cards {
-  max-width:1125px;
+  width:67%;
   margin-right:30px;
 }
 
@@ -214,8 +214,8 @@ aside.accomodations-popular-cards h2 {
 }
 
 aside.accomodations-popular-cards {
-  flex:0 1 100%;
-  max-width:555px;
+  flex:0 1 40%;
+  width:30%;
 }
 
 .accomodations-cards-group {
@@ -339,7 +339,7 @@ a.more-cards {
 
 .activity-aside-cards {
   max-width:370px;
-  height:400px;
+  max-height:400px;
 }
 
 .activity-aside-cards > a{
@@ -426,7 +426,23 @@ footer {
 
 /* Small desktop */
 @media only screen and (max-width: 1245px) {
-    
+  .activity-cards-group > a {
+    max-height:400px;
+  }
+
+  .activity-cards-group > a figure {
+    height:340px;
+  }
+
+  .activity-cards-group > a figure img {
+    height:100%;
+  }
+
+  .activity-aside-cards a:first-child figure,
+  .activity-aside-cards a:first-child figure img {
+    width:100%;
+    height:135px;
+  }
 }
 
 /* Tablette */
