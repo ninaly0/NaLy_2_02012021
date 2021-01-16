@@ -83,7 +83,7 @@ p {
     /** RESEARCH BAR **/
 div.research-bar {
   display:flex;
-  margin-top:15px;
+  margin-top:20px;
   height:35px;
 }
 
@@ -123,6 +123,7 @@ div.research-localisation {
 }
 
 .filter-bar h2 {
+  margin-top:10px;
   margin-right:20px;
   font-size: 15px;
 }
@@ -139,6 +140,7 @@ div.research-localisation {
   height:37px;
   border:2px solid #DBDBDB;
   padding:0;
+  margin-top:10px;
   margin-right:15px;
   background-color:white;
   outline:none;
@@ -321,8 +323,13 @@ a.more-cards {
   display:flex;
   margin-top:20px;
 }
+.first-group-activities,
+.second-group-activities {
+  display:flex;
+}
 
-.activity-cards-group > a {
+.first-group-activities > a,
+.second-group-activities > a {
   display:block;
   max-width:370px;
   border-radius:20px;
@@ -332,7 +339,8 @@ a.more-cards {
   -moz-box-shadow: -2px 1px 5px -1px rgba(118,115,115,0.69);
 }
 
-.activity-cards-group > a figure img {
+.first-group-activities > a figure img,
+.second-group-activities > a figure img {
   height:350px;
   object-fit: cover;
 }
@@ -352,7 +360,8 @@ a.more-cards {
   -moz-box-shadow: -2px 1px 5px -1px rgba(118,115,115,0.69);
 }
 
-.activity-cards-group > a figure {
+.first-group-activities > a figure,
+.second-group-activities > a figure {
   height:350px;
 }
 
@@ -381,7 +390,8 @@ a.more-cards {
   height:145px;
 }
 
-.activity-cards-group a figure img {
+.first-group-activities a figure img,
+.second-group-activities a figure img {
   border-radius:20px 20px 0 0;
   object-fit: cover;
 }
@@ -426,15 +436,18 @@ footer {
 
 /* Small desktop */
 @media only screen and (max-width: 1245px) {
-  .activity-cards-group > a {
+  .first-group-activities > a,
+  .second-group-activities > a {
     max-height:400px;
   }
 
-  .activity-cards-group > a figure {
+  .first-group-activities > a figure,
+  .second-group-activities > a figure {
     height:340px;
   }
 
-  .activity-cards-group > a figure img {
+  .first-group-activities > a figure img,
+  .second-group-activities > a figure img{
     height:100%;
   }
 
@@ -447,7 +460,6 @@ footer {
 
 /* Tablette */
 @media only screen and (max-width: 1024px) {
-    
 }
 
 /* smartphone */
