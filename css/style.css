@@ -644,8 +644,16 @@ footer {
     border-radius:0;
     padding:20px;
   }
+  .popular-card {
+    display:flex;
+    height:160px;
+  }
+  .popular-card figure {
+    height:auto;
+    margin-right:10px;
+  }
   .popular-cards-group .popular-card figure {
-    max-width:120px;
+    max-width:100px;
   }
   .card {
     width:100%;
@@ -654,9 +662,10 @@ footer {
   .card img {
     height:150px;
   }
-  .card-infos {
+  
+  /* .card-infos {
     margin: 10px 0 0 10px
-  }
+  } */
 
   #activity-cards {
     display:flex;
