@@ -548,7 +548,6 @@ footer {
     margin-bottom:10px;
     order:2;
     padding-right:20px;
-
   }
 
   nav {
@@ -662,10 +661,6 @@ footer {
   .card img {
     height:150px;
   }
-  
-  /* .card-infos {
-    margin: 10px 0 0 10px
-  } */
 
   #activity-cards {
     display:flex;
