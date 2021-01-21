@@ -199,6 +199,11 @@ nav a:last-child {
 /******************* ACCOMODATIONS CARDS *********************/
 
 /** Common CSS for accomodations **/
+#accomodations-cards {
+  display:flex;
+  justify-content: space-between;
+  margin-top:25px;
+}
 div.accomodations-main-cards,
 aside.accomodations-popular-cards {
   background-color:var(--color-grey);
@@ -238,11 +243,6 @@ aside.accomodations-popular-cards h2 {
 }
 
 /** Main accomodations results **/
-#accomodations-cards {
-  display:flex;
-  justify-content: space-between;
-  margin-top:25px;
-}
 
 .accomodations-main-cards {
   width:67%;
@@ -358,6 +358,7 @@ aside.accomodations-popular-cards {
   max-width:370px;
   max-height:400px;
   flex: 1 1 100%;
+
 }
 
 .activity-aside-cards > a{
