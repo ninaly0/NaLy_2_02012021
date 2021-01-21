@@ -692,7 +692,7 @@ footer {
   }
   .first-group-activities > a,
   .second-group-activities > a {
-    max-width:100%;
+    width:100%;
     margin:0 0 35px 0;
   }
   .first-group-activities > a figure,
